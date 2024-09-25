@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* .navbar{
+    display: flex;
+    cursor: pointer;
+    width: fit-content;
+    
+}
+
+.logo-img{
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.nav-list{
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 20px;
+    gap: 60px;
+}
+
+.nav-btn{
+    background: linear-gradient(236.46deg, #FF1616 -0.8%, #7C0A0A 220.92%);
+    margin-left: 150px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid red;
+} */
+
+
+.logo-img{
+   padding: 10px;
+   margin: 10px;
+   width: 155px;
+}
+
+.nav-link {
+    transition: color 0.3s, text-decoration 0.3s; 
+}
+
+.nav-link:hover {
+    color: #ff0000 !important;
+    text-decoration: underline; 
+}
+
+
+/* banner css */
+.main-banner {
+    margin-top: 70px;
+}
+
+.main-banner h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.main-banner h2 {
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.main-banner p {
+    color: gray;
+    line-height: 25px;
+}
+
+.ban-img {
+    width: 100%; /* Ensure it takes full width */
+    max-width: 650px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* achievement */
+
+.achievement {
+    background: linear-gradient(236.46deg, #FF1616 -0.8%, #7C0A0A 220.92%);
+    color: white;
+    height: auto;
+    margin-top: 50px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 100%;
+}
+
+.achievement-item {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: 100%; 
+}
+
+
+
+/* banner media query*/
+
+@media (max-width: 768px) {
+    .main-banner {
+        margin: 0;
+        text-align: center;
+        align-items: center;
+    }
+}
